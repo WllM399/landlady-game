@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#eee3ca">
+  <meta name="description" content="Ein Point-and-Click-Erzählspiel zu Roald Dahls The Landlady und einer Fortsetzung.">
+  <title>Die Wirtin – Ein Erzählspiel</title>
+  <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a class="wordmark" href="#spiel" aria-label="Die Wirtin – zum Spiel">
+        <span class="wordmark-title">Die Wirtin</span>
+        <span class="wordmark-subtitle">Ein Erzählspiel in acht Szenen</span>
+      </a>
+      <nav class="top-actions" aria-label="Spielmenü">
+        <button class="quiet-button" id="map-button" type="button" aria-expanded="false" aria-controls="map-panel">Ortskarte</button>
+        <button class="quiet-button" id="journal-button" type="button" aria-expanded="false" aria-controls="journal-panel">
+          Notizbuch <span class="button-count" id="note-count">0</span>
+        </button>
+        <button class="quiet-button" id="restart-button" type="button">Von vorn</button>
+      </nav>
+    </header>
+
+    <main id="spiel">
+      <section class="game-intro" aria-labelledby="story-title">
+        <div class="title-block">
+          <h1 id="story-title">Ein Zimmer für die Nacht</h1>
+          <p>Erkunde die Pension, sammle die Hinweise und folge der Geschichte bis zu ihrem letzten Knall.</p>
+        </div>
+        <div class="chapter-status" aria-live="polite">
+          <span class="status-label">Kapitel</span>
+          <span id="scene-count">1 von 8</span>
+          <progress id="story-progress" value="1" max="8" aria-label="Fortschritt in der Geschichte"></progress>
+        </div>
+      </section>
+
+      <section class="play-layout" aria-label="Point-and-Click-Spiel">
+        <div class="scene-column">
+          <div class="scene-heading">
+            <div>
+              <p class="location-label" id="location-label">Bath</p>
+              <h2 id="scene-title" tabindex="-1">Die Straße</h2>
+            </div>
+            <p class="scene-hint" id="scene-hint">Suche im Bild nach feinen Umrissen und untersuche sie.</p>
+          </div>
+
+          <div class="scene-frame" id="scene-frame">
+            <canvas id="scene-art" role="img" aria-label="Eine gezeichnete Szene aus der Geschichte"></canvas>
+            <div class="hotspots" id="hotspots" aria-label="Dinge zum Untersuchen"></div>
+            <div class="scene-caption">
+              <p id="scene-caption">Ein junger Reisender sucht in Bath nach einem Zimmer.</p>
+            </div>
+          </div>
+
+          <div class="scene-footer">
+            <button class="text-button" id="back-button" type="button" disabled>Zurück</button>
+            <p class="progress-hint" id="progress-hint" aria-live="polite">Untersuche die Szene, um weiterzugehen.</p>
+            <button class="next-button" id="next-button" type="button" disabled>Weiter</button>
+          </div>
+
+          <div class="scene-dots" id="scene-dots" aria-label="Szenenfortschritt"></div>
+        </div>
+
+        <aside class="story-panel" aria-labelledby="story-panel-title">
+          <div class="panel-topline">
+            <span class="ink-rule" aria-hidden="true"></span>
+            <span id="scene-kicker">Ankunft</span>
+          </div>
+          <h2 id="story-panel-title">Die Erzählung</h2>
+          <div class="story-copy" id="story-copy" aria-live="polite">
+            <p>Billy Weaver kommt nach Bath. Noch am selben Abend sucht er nach einer Unterkunft.</p>
+          </div>
+          <div class="clue-divider" aria-hidden="true"></div>
+          <p class="clue-label">Entdeckte Hinweise</p>
+          <ul class="clue-list" id="clue-list"></ul>
+          <p class="panel-note" id="panel-note">Die Geschichte wird mit jedem Klick ein Stück vollständiger.</p>
+        </aside>
+      </section>
+
+      <aside class="map-panel" id="map-panel" aria-labelledby="map-title" hidden>
+        <div class="journal-heading">
+          <div>
+            <p class="location-label">Dein Weg durch die Geschichte</p>
+            <h2 id="map-title">Ortskarte</h2>
+          </div>
+          <button class="text-button" id="close-map" type="button">Schließen</button>
+        </div>
+        <p class="map-instructions">Bereits besuchte Orte kannst du erneut ansehen.</p>
+        <ol class="map-route" id="map-route" aria-label="Orte der Geschichte"></ol>
+      </aside>
+
+      <aside class="journal-panel" id="journal-panel" aria-labelledby="journal-title" hidden>
+        <div class="journal-heading">
+          <div>
+            <p class="location-label">Deine Aufzeichnungen</p>
+            <h2 id="journal-title">Notizbuch</h2>
+          </div>
+          <button class="text-button" id="close-journal" type="button">Schließen</button>
+        </div>
+        <div class="journal-tabs" role="group" aria-label="Notizbuch-Inhalt">
+          <button class="journal-tab is-active" id="clues-tab" type="button" aria-pressed="true" aria-controls="journal-content" data-tab="clues">Spuren</button>
+          <button class="journal-tab" id="story-tab" type="button" aria-pressed="false" aria-controls="journal-content" data-tab="story">Bisherige Geschichte</button>
+        </div>
+        <div class="journal-content" id="journal-content" aria-live="polite" tabindex="0"></div>
+      </aside>
+    </main>
+
+    <footer class="page-footer">
+      <p>Nach Roald Dahl: <cite>The Landlady</cite> (erstmals erschienen am 28. November 1959).</p>
+    </footer>
+  </div>
+  <script src="scripts/index.js"></script>
+</body>
+</html>
