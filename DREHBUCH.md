@@ -1,6 +1,6 @@
 # Drehbuch: Die Wirtin
 
-Ein lineares Point-and-Click-Erzählspiel in acht Szenen. Die Spielerin oder der Spieler bewegt keine Figur, sondern klickt Hinweise an und wechselt mit „Zurück“ und „Weiter“ zwischen den Orten. Jeder Hinweis ergänzt das Notizbuch. Es gibt keine erfundenen Nebenhandlungen oder alternativen Enden.
+Ein lineares Point-and-Click-Erzählspiel in acht Szenen. Die Spielerin oder der Spieler bewegt keine Figur, sondern klickt Hinweise an und wechselt mit „Zurück“ und „Weiter“ zwischen den Orten. Die Hinweise erscheinen einzeln in der unten aufgeführten Reihenfolge: Nach jedem Klick wird der nächste Punkt sichtbar. Erst wenn alle Hinweise einer Szene untersucht sind, geht es weiter. Jeder Hinweis ergänzt das Notizbuch. Es gibt keine erfundenen Nebenhandlungen oder alternativen Enden.
 
 ## 1. Die Straße
 
@@ -16,10 +16,10 @@ Ein lineares Point-and-Click-Erzählspiel in acht Szenen. Die Spielerin oder der
 
 **Ort:** Wohnzimmer der Pension.  
 **Bild:** Kamin, Sofa, Vogel und Dackel. Die beiden Tiere wirken lebendig, sind aber ausgestopft.  
-**Erzählung:** Die Wirtin heißt Billy freundlich willkommen.
+**Erzählung:** Billy wird freundlich empfangen und in den Salon geführt.
 
 - **Vogel untersuchen:** Ein ausgestopfter Vogel sitzt regungslos im Käfig.
-- **Dackel untersuchen:** Auch der Hund ist ausgestopft; die Wirtin zählt ihn zu ihren kleinen Haustieren.
+- **Dackel untersuchen:** Auch der Hund ist ausgestopft und gilt der Gastgeberin als eines ihrer kleinen Haustiere.
 - **Wirtin ansehen:** Ihre ruhige, freundliche Art macht den seltsamen Salon zunächst normal.
 
 ## 3. Das Gästebuch
@@ -30,17 +30,17 @@ Ein lineares Point-and-Click-Erzählspiel in acht Szenen. Die Spielerin oder der
 
 - **Buch untersuchen:** Es gibt nur wenige Einträge.
 - **Namen lesen:** Christopher Mulholland und Gregory Temple waren frühere Gäste.
-- **Teetisch ansehen:** Die Wirtin lädt Billy zum Tee ein.
+- **Teetisch ansehen:** Am Teetisch bittet die Gastgeberin Billy, Platz zu nehmen.
 
 ## 4. Die letzte Antwort
 
 **Ort:** Am Teetisch im Salon.  
 **Bild:** Billy sitzt auf dem Sofa; zwischen ihm und der Wirtin steht eine Porzellantasse.  
-**Erzählung:** Billy fragt, ob es in den letzten Jahren noch andere Gäste gab. Die Wirtin antwortet, es gebe nur ihn. Das ist der letzte Satz von Dahls Geschichte; unmittelbar danach setzt die Fortsetzung aus Sicht der Wirtin ein.
+**Erzählung:** Billy fragt, ob es in den letzten Jahren noch andere Gäste gab. Sie antwortet, es gebe nur ihn. Das ist der letzte Satz von Dahls Geschichte; unmittelbar danach setzt die Fortsetzung aus ihrer Sicht ein.
 
-- **Tasse untersuchen:** Billy trinkt Tee, der leicht nach Bittermandeln schmeckt. Die Wirtin erwähnt, dass Mr. Mulholland ebenfalls viel Tee getrunken habe.
-- **Billy ansehen:** Die Wirtin sagt, Mulholland und Temple seien nie fortgegangen und noch im Haus. Billy starrt in eine Ecke des Zimmers.
-- **Letzte Antwort anklicken** *(erst nach den beiden anderen Hinweisen)*: Billy fragt nach früheren Gästen. Die Wirtin antwortet: „Nein, mein Lieber. Nur Sie.“ Dahls Geschichte endet hier. In der Fortsetzung gluckst Billy leise und trocken, die Tasse gleitet aus seinen Fingern, und sein Körper sinkt ins Sofa. Die Wirtin fühlt keinen Puls. Billy ist tot.
+- **Tasse untersuchen:** Billy trinkt Tee, der leicht nach Bittermandeln schmeckt. Dabei erwähnt sie, dass Mr. Mulholland ebenfalls viel Tee getrunken habe.
+- **Billy ansehen:** Laut ihr seien Mulholland und Temple nie fortgegangen und noch im Haus. Billy starrt in eine Ecke des Zimmers.
+- **Letzte Antwort anklicken** *(erst nach den beiden anderen Hinweisen)*: Billy fragt nach früheren Gästen. Auf seine Frage lächelt sie: „Nein, mein Lieber. Nur Sie.“ Dahls Geschichte endet hier. In der Fortsetzung gluckst Billy leise und trocken, die Tasse gleitet aus seinen Fingern, und sein Körper sinkt ins Sofa. Am Hals spürt sie keinen Puls. Billy ist tot.
 
 ## 5. Der Irrtum
 
@@ -58,7 +58,7 @@ Ein lineares Point-and-Click-Erzählspiel in acht Szenen. Die Spielerin oder der
 **Bild:** Die Kellertreppe und Billys verhüllter Körper. Die Erzählung erinnert an John und Arthur; zusätzliche Beweisstücke sind nicht abgebildet.  
 **Erzählung:** Arthur und mein Ehemann John hatten vor Jahren Christopher Mulholland und Gregory Temple gezielt umgebracht. Wegen Wettschulden erstickten sie die Gäste im Schlaf mit Kissen, stahlen ihre Uhren und Wertgegenstände und bezahlten damit ihre Schulden. John wurde als Täter verdächtigt und sitzt seitdem im Gefängnis. Arthur entkam knapp. Eine weitere Leiche könnte die früheren Fälle wieder aufrollen.
 
-- **Erinnerung untersuchen:** Die Wirtin erinnert sich an die Morde, die Wettschulden, Johns Gefängnisstrafe und Arthurs knappe Flucht.
+- **Erinnerung untersuchen:** Sie erinnert sich an die Morde, die Wettschulden, Johns Gefängnisstrafe und Arthurs knappe Flucht.
 - **Kellertreppe untersuchen:** Arthur sagt, sie sollten Billy erst einmal im Keller verstecken. Gemeinsam tragen sie die Leiche hinunter.
 - **Drei Tage später:** Arthur kehrt zurück, um die Leiche loszuwerden. Plötzlich klopft es heftig an der Haustür.
 
@@ -76,13 +76,13 @@ Ein lineares Point-and-Click-Erzählspiel in acht Szenen. Die Spielerin oder der
 
 **Ort:** Vor der Pension.  
 **Bild:** Arthur flieht über das Pflaster; der Inspektor hebt seine Waffe, eine Menschenmenge hat sich versammelt.  
-**Erzählung:** Wir werden nach draußen geführt. Ein Polizeiwagen und Schaulustige warten dort. Als Arthur seine Frau sieht, verliert er die Fassung. Er reißt sich los und versucht zu fliehen. Ein Schuss fällt; Arthur bricht getroffen zusammen. Der Inspektor hebt seine Dienstwaffe und zielt auf mich. Ein lauter Knall ist das Letzte, was ich höre. Was danach geschieht, bleibt offen.
+**Erzählung:** Wir werden nach draußen geführt. Ein Polizeiwagen und Schaulustige warten dort. Als Arthur seine Frau sieht, verliert er die Fassung. Er reißt sich los und versucht zu fliehen. Ein Schuss fällt; Arthur bricht getroffen zusammen. Der Inspektor hebt seine Dienstwaffe und zielt auf mich. Dann schießt er. Die Kugel trifft mich, und ich sterbe.
 
 - **Arthurs Flucht ansehen:** Als Arthur seine Frau sieht, reißt er sich los und flieht. Ein Schuss fällt; er bricht getroffen auf dem Kopfsteinpflaster zusammen.
-- **Inspektor ansehen:** Ich sehe seine Waffe; dann höre ich den Knall.
+- **Inspektor ansehen:** Ich sehe seine Waffe. Der Inspektor schießt auf mich. Der Schuss trifft mich, und ich sterbe.
 
 ## Übergang und Bedienung
 
-Der Übergang liegt in Szene 4: Dahls letzter Satz lautet, dass Billy der einzige Gast sei. Unmittelbar danach beginnt die Fortsetzung mit dem Glucksen und dem Fall der Tasse. Ab diesem Moment erzählt die Wirtin in der Ich-Form. Zwischen den Texten liegt kein erfundenes Ereignis.
+Der Übergang liegt in Szene 4: Dahls letzter Satz lautet, dass Billy der einzige Gast sei. Unmittelbar danach beginnt die Fortsetzung mit dem Glucksen und dem Fall der Tasse. Ab diesem Moment erzählt sie in der Ich-Form. Zwischen den Texten liegt kein erfundenes Ereignis.
 
 Die oberen Knöpfe öffnen das **Notizbuch** und die **Ortskarte**. Das Notizbuch zeigt gefundene Spuren und fasst erreichte Szenen zusammen. Die Karte erlaubt den Wechsel zu bereits besuchten Orten. **Zurück** zeigt die vorige Szene; **Von vorn** löscht den gespeicherten Spielstand. Die anklickbaren Stellen sind nur durch einen schwachen Umriss angedeutet und treten beim Darüberfahren deutlicher hervor.
