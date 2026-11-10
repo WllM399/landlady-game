@@ -10,9 +10,9 @@ const scenes = [
     intro: "Billy Weaver kommt nach Bath. Noch am selben Abend sucht er nach einer Unterkunft.",
     summary: "Billy reist nach Bath und sucht am Abend nach einem Zimmer für die Nacht.",
     hotspots: [
-      { id: "schild", label: "Das Schild", x: 69, y: 41, title: "Ein Zimmer frei", text: "Ein schlichtes Schild weist auf ein Bed & Breakfast hin. Billy braucht ein Zimmer und tritt näher.", note: "Billy entdeckt das Schild der Pension." },
-      { id: "fenster", label: "Das Fenster", x: 40, y: 50, title: "Ein Blick hinein", text: "Im Fenster sieht Billy einen warmen, stillen Salon. Die Pension wirkt einladender als die Hotels, an denen er vorbeigekommen ist.", note: "Der Salon wirkt warm und einladend." },
-      { id: "tuer", label: "Die Haustür", x: 70, y: 67, title: "Ein Schritt hinein", text: "Billy entscheidet sich für die Pension und klingelt.", note: "Billy klingelt an der Tür." }
+      { id: "schild", label: "Das Schild", x: 55, y: 47, title: "Ein Zimmer frei", text: "Ein schlichtes Schild weist auf ein Bed & Breakfast hin. Billy braucht ein Zimmer und tritt näher.", note: "Billy entdeckt das Schild der Pension." },
+      { id: "fenster", label: "Das Fenster", x: 36, y: 53, title: "Ein Blick hinein", text: "Im Fenster sieht Billy einen warmen, stillen Salon. Die Pension wirkt einladender als die Hotels, an denen er vorbeigekommen ist.", note: "Der Salon wirkt warm und einladend." },
+      { id: "tuer", label: "Die Haustür", x: 71, y: 63, title: "Ein Schritt hinein", text: "Billy entscheidet sich für die Pension und klingelt.", note: "Billy klingelt an der Tür." }
     ]
   },
   {
@@ -22,12 +22,12 @@ const scenes = [
     chapter: "Ein seltsamer Empfang",
     art: "parlor",
     alt: "Der Salon mit einem Kamin, einem ausgestopften Vogel und einem kleinen Hund.",
-    intro: "Die Wirtin empfängt Billy freundlich und führt ihn in den Salon.",
-    summary: "Die Wirtin heißt Billy willkommen. Im Salon fallen ihm zwei ungewöhnlich lebensechte Tiere auf.",
+    intro: "Billy wird freundlich begrüßt und in den Salon geführt.",
+    summary: "Dort heißt ihn seine Gastgeberin willkommen. Zwei ungewöhnlich lebensechte Tiere fallen Billy ebenfalls auf.",
     hotspots: [
-      { id: "vogel", label: "Der Vogel", x: 21, y: 27, title: "Still wie ein Bild", text: "Ein ausgestopfter Vogel sitzt regungslos im Käfig. Sein Gefieder sieht aus, als könnte er jeden Augenblick auffliegen.", note: "Im Salon steht ein ausgestopfter Vogel." },
-      { id: "hund", label: "Der Hund", x: 77, y: 80, title: "Ein kleines Haustier", text: "Ein ausgestopfter Dackel liegt neben dem Kamin. Die Wirtin nennt ihn eines ihrer kleinen Haustiere.", note: "Auch der Dackel ist ausgestopft." },
-      { id: "wirtin", label: "Die Wirtin", x: 54, y: 43, title: "Eine freundliche Gastgeberin", text: "Die Wirtin spricht ruhig und zuvorkommend. Ihre Freundlichkeit macht die stillen Tiere im Zimmer beinahe selbstverständlich.", note: "Die Wirtin nimmt Billy freundlich auf." }
+      { id: "vogel", label: "Der Vogel", x: 13, y: 41, title: "Still wie ein Bild", text: "Ein ausgestopfter Vogel sitzt regungslos im Käfig. Sein Gefieder sieht aus, als könnte er jeden Augenblick auffliegen.", note: "Im Salon steht ein ausgestopfter Vogel." },
+      { id: "hund", label: "Der Hund", x: 37, y: 81, title: "Ein kleines Haustier", text: "Der ausgestopfte Dackel liegt neben dem Kamin. Sie zählt ihn zu ihren kleinen Haustieren.", note: "Auch der Dackel ist ausgestopft." },
+      { id: "wirtin", label: "Die Wirtin", x: 49, y: 61, title: "Eine freundliche Gastgeberin", text: "Ruhig und zuvorkommend spricht sie mit Billy. So wirken selbst die stillen Tiere im Zimmer beinahe selbstverständlich.", note: "Billy wird freundlich aufgenommen." }
     ]
   },
   {
@@ -41,8 +41,8 @@ const scenes = [
     summary: "Im Gästebuch entdeckt Billy Christopher Mulholland und Gregory Temple. Beide waren vor Jahren zu Gast.",
     hotspots: [
       { id: "gaestebuch", label: "Das Gästebuch", x: 50, y: 61, title: "Wenig Einträge", text: "Zwischen den Seiten liegen nur wenige Einträge. Die beiden Namen aus der Vergangenheit stechen sofort heraus.", note: "Im Gästebuch stehen nur wenige Namen." },
-      { id: "namen", label: "Die Namen", x: 59, y: 70, title: "Christopher und Gregory", text: "Christopher Mulholland und Gregory Temple hatten beide in der Pension gewohnt. Die Wirtin spricht über sie, als seien sie noch in der Nähe.", note: "Christopher Mulholland und Gregory Temple waren frühere Gäste." },
-      { id: "teetisch", label: "Der Teetisch", x: 23, y: 51, title: "Die Einladung zum Tee", text: "Die Wirtin bittet Billy, Platz zu nehmen. Der Tee steht bereits für ihn bereit.", note: "Billy wird zum Tee eingeladen." }
+      { id: "namen", label: "Die Namen", x: 59, y: 70, title: "Christopher und Gregory", text: "Christopher Mulholland und Gregory Temple hatten beide in der Pension gewohnt. Über sie spricht die Gastgeberin, als seien sie noch in der Nähe.", note: "Christopher Mulholland und Gregory Temple waren frühere Gäste." },
+      { id: "teetisch", label: "Der Teetisch", x: 23, y: 51, title: "Die Einladung zum Tee", text: "Die Gastgeberin bittet Billy, Platz zu nehmen. Sein Tee steht bereits bereit.", note: "Billy wird zum Tee eingeladen." }
     ]
   },
   {
@@ -53,11 +53,11 @@ const scenes = [
     art: "tea",
     alt: "Ein Teetisch neben dem Sofa im stillen Salon.",
     intro: "Billy sitzt mit der Wirtin im Salon. Sie sagt, die beiden früheren Gäste seien noch da. Dann fragt Billy, ob es in den letzten Jahren weitere Gäste gab.",
-    summary: "Nachdem Billy die ausgestopften Tiere und die früheren Gäste erkannt hat, sagt die Wirtin: »Nein, mein Lieber. Nur Sie.« Das ist Dahls letzter Satz.",
+    summary: "Nachdem Billy die ausgestopften Tiere und die früheren Gäste erkannt hat, antwortet sie: »Nein, mein Lieber. Nur Sie.« Das ist Dahls letzter Satz.",
     hotspots: [
-      { id: "tasse", label: "Die Tasse", x: 49, y: 55, title: "Der Tee", text: "Billy trinkt den Tee. Er schmeckt leicht nach Bittermandeln. Die Wirtin sagt, dass Mr. Mulholland früher ebenfalls sehr viel Tee getrunken habe.", note: "Billys Tee schmeckt leicht nach Bittermandeln." },
-      { id: "sofa", label: "Billys Blick", x: 48, y: 47, title: "Die früheren Gäste", text: "Billy erfährt, dass Mr. Mulholland und Mr. Temple nie fortgegangen sind. Sie seien noch im Haus, beide zusammen im vierten Stock. Billy blickt starr in die Ecke des Zimmers.", note: "Die Wirtin sagt, die früheren Gäste seien noch im Haus." },
-      { id: "frage", label: "Die letzte Antwort", x: 79, y: 38, title: "Nur Sie", requires: ["tasse", "sofa"], text: "Billy fragt, ob es außer den beiden früheren Gästen in den letzten zwei oder drei Jahren noch jemanden gegeben habe. Die Wirtin lächelt: »Nein, mein Lieber. Nur Sie.« Damit endet Dahls Geschichte. Dann gluckst Billy plötzlich leise und trocken. Die Porzellantasse gleitet aus seinen starren Fingern und schlägt auf meinem Teppich auf. Sein Körper sinkt im Sofa zusammen. Als ich meine Hand an seinen Hals lege, fühle ich keinen Puls mehr. Er ist tot.", note: "Dahls letzte Antwort geht ohne Zwischenszene in den ersten Satz der Fortsetzung über." }
+      { id: "tasse", label: "Die Tasse", x: 49, y: 55, title: "Der Tee", text: "Billy trinkt den Tee. Er schmeckt leicht nach Bittermandeln. Dabei erwähnt sie, dass Mr. Mulholland früher ebenfalls sehr viel Tee getrunken habe.", note: "Billys Tee schmeckt leicht nach Bittermandeln." },
+      { id: "sofa", label: "Billys Blick", x: 48, y: 47, title: "Die früheren Gäste", text: "Billy erfährt, dass Mr. Mulholland und Mr. Temple nie fortgegangen sind. Laut ihr seien sie noch im Haus, beide zusammen im vierten Stock. Billy blickt starr in die Ecke des Zimmers.", note: "Die früheren Gäste sind laut der Wirtin noch im Haus." },
+      { id: "frage", label: "Die letzte Antwort", x: 79, y: 38, title: "Nur Sie", text: "Billy fragt, ob es außer den beiden früheren Gästen in den letzten zwei oder drei Jahren noch jemanden gegeben habe. Sie lächelt: »Nein, mein Lieber. Nur Sie.« Damit endet Dahls Geschichte. Dann gluckst Billy plötzlich leise und trocken. Die Porzellantasse gleitet aus seinen starren Fingern und schlägt auf meinem Teppich auf. Sein Körper sinkt im Sofa zusammen. Als ich meine Hand an seinen Hals lege, fühle ich keinen Puls mehr. Er ist tot.", note: "Dahls letzte Antwort geht ohne Zwischenszene in den ersten Satz der Fortsetzung über." }
     ]
   },
   {
@@ -68,7 +68,7 @@ const scenes = [
     art: "kitchen",
     alt: "Eine dunkle Küche mit einer Medizinflasche neben einer Teetasse.",
     intro: "Ich sacke zusammen und weine. Dann kommt mir ein schrecklicher Gedanke. Hellwach eile ich in die Küche, um meine Brille zu holen.",
-    summary: "Die Wirtin erkennt, dass Billy tot ist. Beim Zubereiten des Tees hatte sie ihr gefährliches Medikament verwechselt.",
+    summary: "Erst jetzt begreift sie, dass Billy tot ist. Beim Zubereiten des Tees hatte sie ihr gefährliches Medikament verwechselt.",
     hotspots: [
       { id: "brille", label: "Die Brille", x: 21, y: 64, title: "Ohne Brille", text: "Meine Brille liegt auf dem Küchentisch. Ich setze sie auf und schaue erschrocken zur Arbeitsfläche. Im Dunkeln hatte ich ohne Brille Tee mit meinem Medikament verwechselt.", note: "Meine Brille lag auf dem Küchentisch; ohne sie verwechselte ich Tee und Medikament." },
       { id: "medizin", label: "Das Medikament", x: 65, y: 56, title: "Ein gefährlicher Irrtum", text: "Das Medikament hatte ich am Tag zuvor aus der Apotheke geholt. Die nette Frau hinter dem Tresen hatte mich gewarnt, dass es bei falscher Einnahme sehr tödlich sei. Ich hatte meinen eigenen Tee mit dem Medikament verwechselt.", note: "Die Apothekerin hatte vor den tödlichen Folgen einer falschen Einnahme gewarnt." },
@@ -83,7 +83,7 @@ const scenes = [
     art: "cellar",
     alt: "Eine steile Kellertreppe führt hinunter in einen dunklen Raum.",
     intro: "Arthur und ich durften die Polizei nicht rufen. Wenn in meinem Haus erneut eine Leiche gefunden würde, könnten die früheren Fälle wieder aufgerollt werden.",
-    summary: "John und Arthur ermordeten wegen hoher Wettschulden zwei Gäste im Schlaf und stahlen ihre Wertsachen. John wurde als Täter verdächtigt und sitzt im Gefängnis; Arthur entkam knapp. Arthur und die Wirtin verstecken Billy im Keller.",
+    summary: "John und Arthur ermordeten wegen hoher Wettschulden zwei Gäste im Schlaf und stahlen ihre Wertsachen. John wurde als Täter verdächtigt und sitzt im Gefängnis; Arthur entkam knapp. Gemeinsam verstecken Arthur und die Wirtin Billy im Keller.",
     hotspots: [
       { id: "erinnerung", label: "Die Vergangenheit", x: 18, y: 39, title: "John und Arthur", text: "Arthur und mein Ehemann John hatten vor Jahren Christopher Mulholland und Gregory Temple gezielt umgebracht. Beim Pferderennen hatten sie riesige Wettschulden angehäuft und waren bedroht worden. Sie erstickten die beiden Gäste im Schlaf mit Kissen, stahlen ihre Uhren und Wertgegenstände und bezahlten damit ihre Schulden. Als die Polizei ihnen auf die Schliche kam, reichten die Beweise nur, um John als Täter zu verdächtigen. Er sitzt seitdem im Gefängnis; Arthur entkam damals nur knapp. Wenn nun wieder eine Leiche in meinem Haus gefunden würde, könnten die früheren Fälle auffliegen.", note: "John und Arthur ermordeten Christopher Mulholland und Gregory Temple wegen ihrer Wettschulden. John sitzt im Gefängnis; Arthur entkam knapp." },
       { id: "treppe", label: "Die Kellertreppe", x: 67, y: 55, title: "Billy verschwindet", text: "»Wir müssen ihn hier wegschaffen. Legen wir ihn erst einmal in den Keller, bis wir eine Lösung finden!«, sagte Arthur. Zusammen packten wir Billys Leiche und trugen sie über die knarrenden Stufen hinunter.", note: "Arthur und ich versteckten Billys Leiche im Keller." },
@@ -113,10 +113,10 @@ const scenes = [
     art: "ending",
     alt: "Eine Menge sammelt sich vor der Pension; der Inspektor hebt seine Dienstwaffe.",
     intro: "Sie führten uns hinaus. Ein Polizeiwagen und Schaulustige warteten dort. Als Arthur seine Frau erblickte, verlor er die Fassung.",
-    summary: "Arthur wird erschossen. Der Inspektor richtet seine Waffe auf die Wirtin; ein Knall ist das Letzte, was sie hört. Was danach geschieht, bleibt offen.",
+    summary: "Arthur wird erschossen. Der Inspektor richtet seine Waffe auf die Wirtin und schießt. Der Schuss trifft sie; sie stirbt.",
     hotspots: [
       { id: "arthur-flucht", label: "Arthurs Flucht", x: 48, y: 80, title: "Ein Fluchtversuch", text: "Als Arthur seine Frau erblickte, riss er sich los und wollte fliehen. Was genau geschah, erkannte ich nicht; alles spielte sich zu schnell ab. Plötzlich fiel ein Schuss. Ich sah, wie Arthur getroffen zusammenbrach und leblos auf dem Kopfsteinpflaster liegen blieb.", note: "Arthur flieht, wird getroffen und bleibt leblos auf dem Pflaster liegen." },
-      { id: "inspektor-waffe", label: "Der Inspektor", x: 74, y: 42, title: "Der letzte Augenblick", text: "Ich drehte den Kopf und sah in die tränenverquollenen Augen des Inspektors. In ihnen erkannte ich nur noch puren Wahnsinn. Er hielt seine Dienstwaffe in der Hand, hob den Arm und zielte direkt auf meinen Kopf. Neben der aufschreienden Menschenmenge war ein lauter Knall das Letzte, was mir zu Ohren kam.", note: "Ein lauter Knall ist das Letzte, was die Wirtin hört. Ihr weiteres Schicksal bleibt offen." }
+      { id: "inspektor-waffe", label: "Der Inspektor", x: 74, y: 42, title: "Der letzte Augenblick", text: "Ich drehte den Kopf und sah in die tränenverquollenen Augen des Inspektors. In ihnen erkannte ich nur noch puren Wahnsinn. Er hielt seine Dienstwaffe in der Hand, hob den Arm und zielte direkt auf meinen Kopf. Dann fiel der Schuss. Er traf mich, und ich starb.", note: "Der Inspektor schießt. Die Kugel trifft sie tödlich." }
     ]
   }
 ];
@@ -134,7 +134,8 @@ const sceneTitle = document.querySelector("#scene-title");
 const locationLabel = document.querySelector("#location-label");
 const sceneCount = document.querySelector("#scene-count");
 const sceneHint = document.querySelector("#scene-hint");
-const sceneCaption = document.querySelector("#scene-caption");
+const sceneInfoTitle = document.querySelector("#scene-info-title");
+const sceneInfoText = document.querySelector("#scene-info-text");
 const sceneKicker = document.querySelector("#scene-kicker");
 const storyCopy = document.querySelector("#story-copy");
 const clueList = document.querySelector("#clue-list");
@@ -155,6 +156,21 @@ let selectedTab = "clues";
 let foundClues = new Set();
 let visitedScenes = new Set();
 let completedScenes = new Set();
+
+// Für die ersten beiden Szenen liegen eigene Bilddateien im images-Ordner.
+const sceneImages = {
+  street: loadSceneImage("images/strasseSceneBild.jpeg", "street"),
+  parlor: loadSceneImage("images/salonSceneBild.jpeg", "parlor")
+};
+
+function loadSceneImage(source, kind) {
+  const image = new Image();
+  image.addEventListener("load", () => {
+    if (scenes[currentScene].art === kind) drawScene(kind);
+  });
+  image.src = source;
+  return image;
+}
 
 // Ein gespeicherter Spielstand lässt sich auch löschen, wenn noch nichts gespeichert wurde.
 function loadProgress() {
@@ -208,10 +224,9 @@ function renderScene() {
   sceneTitle.textContent = scene.title;
   locationLabel.textContent = scene.place;
   sceneKicker.textContent = scene.chapter;
-  sceneHint.textContent = scene.id === "tea"
-    ? "Suche zuerst nach Hinweisen am Tee und bei Billy."
-    : "Suche im Bild nach feinen Umrissen und untersuche sie.";
-  sceneCaption.textContent = scene.intro;
+  sceneHint.textContent = "Klicke auf den markierten Punkt. Danach erscheint der nächste Hinweis.";
+  sceneInfoTitle.textContent = "Zur Szene";
+  sceneInfoText.textContent = scene.intro;
   canvas.setAttribute("aria-label", scene.alt);
   sceneCount.textContent = `${currentScene + 1} von ${scenes.length}`;
   progressBar.value = completedScenes.size;
@@ -228,33 +243,32 @@ function renderScene() {
 function renderHotspots(scene) {
   hotspotsElement.replaceChildren();
 
-  scene.hotspots.forEach((clue) => {
-    const button = document.createElement("button");
-    const isFound = foundClues.has(clueKey(scene, clue));
-    button.className = `hotspot${isFound ? " is-found" : ""}`;
-    button.type = "button";
-    button.style.left = `${clue.x}%`;
-    button.style.top = `${clue.y}%`;
-    button.setAttribute("aria-label", `${clue.label} untersuchen`);
-    button.setAttribute("aria-pressed", String(isFound));
-    const requirementsMet = !clue.requires || clue.requires.every((id) =>
-      foundClues.has(`${scene.id}:${id}`)
-    );
-    button.disabled = !requirementsMet;
-    button.innerHTML = '<span class="hotspot-marker" aria-hidden="true"></span>'
-      + `<span class="hotspot-label">${clue.label}</span>`;
-    button.addEventListener("click", () => inspectClue(scene, clue));
-    hotspotsElement.append(button);
-  });
+  const nextClue = scene.hotspots.find((clue) => !foundClues.has(clueKey(scene, clue)));
+  if (!nextClue) {
+    sceneHint.textContent = "Alle Hinweise dieser Szene sind gefunden.";
+    return;
+  }
+
+  sceneHint.textContent = "Klicke auf den markierten Punkt, um die Geschichte fortzusetzen.";
+  const button = document.createElement("button");
+  button.className = "hotspot";
+  button.type = "button";
+  button.style.left = `${nextClue.x}%`;
+  button.style.top = `${nextClue.y}%`;
+  button.setAttribute("aria-label", `${nextClue.label} untersuchen`);
+  button.setAttribute("aria-pressed", "false");
+  button.innerHTML = '<span class="hotspot-marker" aria-hidden="true"></span>'
+    + `<span class="hotspot-label">${nextClue.label}</span>`;
+  button.addEventListener("click", () => inspectClue(scene, nextClue));
+  hotspotsElement.append(button);
 }
 
 function inspectClue(scene, clue) {
   foundClues.add(clueKey(scene, clue));
   saveProgress();
 
-  sceneCaption.textContent = clue.text;
-  storyCopy.innerHTML = `<h3>${clue.title}</h3><p>${clue.text}</p>`;
-  sceneHint.textContent = clue.label;
+  sceneInfoTitle.textContent = clue.title;
+  sceneInfoText.textContent = clue.text;
   renderHotspots(scene);
   renderClueList(scene);
   renderJournal();
@@ -457,7 +471,7 @@ function restartGame() {
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 
-// Die Bühne wird aus einfachen Canvas-Formen gezeichnet, damit alle Szenen lokal mitkommen.
+// Die ersten beiden Szenen nutzen Bilddateien; die übrigen Hintergründe bleiben Canvas-Zeichnungen.
 function drawScene(kind) {
   const width = 1200;
   const height = 675;
@@ -466,6 +480,12 @@ function drawScene(kind) {
   canvas.height = height * scale;
   context.setTransform(scale, 0, 0, scale, 0, 0);
   context.clearRect(0, 0, width, height);
+
+  const sceneImage = sceneImages[kind];
+  if (sceneImage?.complete && sceneImage.naturalWidth > 0) {
+    context.drawImage(sceneImage, 0, 0, width, height);
+    return;
+  }
 
   const painters = {
     street: drawStreet,
